@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="SimpleMvvmDemo.Client.UserControls.UserControl_LeftAndRightScrollViewer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SimpleMvvmDemo.Client.UserControls"
+             xmlns:Ex="clr-namespace:SimpleMvvmDemo.Client"
+             mc:Ignorable="d" >
+    <StackPanel Orientation="Horizontal">
+        <Button x:Name="Button_left" Width="50" Height="50"  FontFamily="/#fontawesome"  Ex:ButtonEx.Radius="25"  Content="&#xf077;" Background="White" Click="Button_left_Click_1"/>
+        <Button x:Name="Button_Right" Margin="10 0 0 0" Width="50" Height="50"  FontFamily="/#fontawesome" Content="&#xf078;" Ex:ButtonEx.Radius="25" Background="White" Click="Button_Right_Click_1"/>
+    </StackPanel>
+</UserControl>
